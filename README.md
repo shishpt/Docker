@@ -28,6 +28,8 @@ With -p we're mapping port 80 of the contianer to port 80 of the device.
 
 To see this working we will launch a browser and type following:
 
-http://localhost:80
+> http://localhost:80
 
 We should see a page that reads "Staging Server"
+
+We have just set up a staging server via an image using Docker. Our cotnainer can be closed with control-c which will kill the process int her terminal.
